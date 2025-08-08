@@ -31,7 +31,7 @@
 #include "srsran/phy/utils/debug.h"
 #include "srsran/phy/utils/vector.h"
 
-#define CELL_SEARCH_BUFFER_MAX_SAMPLES (3 * SRSRAN_SF_LEN_MAX)
+#define CELL_SEARCH_BUFFER_MAX_SAMPLES (11 * SRSRAN_SF_LEN_MAX)
 
 int srsran_ue_cellsearch_init(srsran_ue_cellsearch_t* q,
                               uint32_t                max_frames,

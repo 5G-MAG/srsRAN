@@ -96,7 +96,7 @@ typedef struct SRSRAN_API {
   srsran_chest_dl_t     chest;
   srsran_chest_dl_res_t chest_res;
   srsran_ofdm_t         fft[SRSRAN_MAX_PORTS];
-  srsran_ofdm_t         fft_mbsfn;
+  srsran_ofdm_t         fft_mbsfn[SRSRAN_MAX_PORTS];
 
   // Buffers to store channel symbols after demodulation
   cf_t*              sf_symbols[SRSRAN_MAX_PORTS];
